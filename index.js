@@ -12,8 +12,12 @@ import app from "./app.js";
             }
     
             app.listen(5000,onListening)
-            }
 
+            app.get("/",(req,res)=>{
+              res.send("<h1>Server is Working</h1>")  
+            })
+
+            }
         catch(error){
             console.log("Listening on PORT 5000");
             throw err;
