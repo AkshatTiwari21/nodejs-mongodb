@@ -2,10 +2,10 @@
   "name": "nodejs-mongodb",
   "version": "1.0.0",
   "description": "A test repo to configure nodejs and mongodb",
-  "main": "index.js",
-  "type": "module",
+  "main": "app.js",
+  "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
